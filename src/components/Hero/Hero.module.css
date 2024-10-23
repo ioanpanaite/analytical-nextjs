@@ -1,0 +1,29 @@
+.albumContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.albumContainer .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.albumContainer .image {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.albumContainer .image p {
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  color: white;
+  z-index: 100;
+  font-weight: 700;
+  text-transform: uppercase;
+}

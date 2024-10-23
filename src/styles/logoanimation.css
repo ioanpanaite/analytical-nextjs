@@ -1,0 +1,137 @@
+/* Hero logo animation  */
+#logo-ac-3-path-3a {
+  stroke-dasharray: 356;
+  stroke-dashoffset: 356;
+}
+
+#logo-ac-3-path-3a.dash-draw-3a {
+  animation: logo-ac-3-path-3a-dash-draw-3a 0.7s ease-out .5s forwards;
+}
+
+@keyframes logo-ac-3-path-3a-dash-draw-3a {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#logo-ac-3-path-3b {
+  stroke-dasharray: 329;
+  stroke-dashoffset: 329;
+}
+
+#logo-ac-3-path-3b.dash-draw-3b {
+  animation: logo-ac-3-path-3b-dash-draw-3b 0.7s ease-out .5s forwards;
+}
+
+
+@keyframes logo-ac-3-path-3b-dash-draw-3b {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#logo-ac-3-path-3c {
+  stroke-dasharray: 180;
+  stroke-dashoffset: 180;
+}
+
+#logo-ac-3-path-3c.dash-draw-3c {
+  animation: logo-ac-3-path-3c-dash-draw-3c 0.7s ease-out .5s forwards;
+}
+
+@keyframes logo-ac-3-path-3c-dash-draw-3c {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#wordmark-ac-3 {
+  margin-top: 15px;
+}
+
+#wordmark-ac-3-clip {
+  will-change: transform;
+  transform: translateX(-650px);
+}
+
+#wordmark-ac-3-clip.clip-animate-3 {
+  animation: wordmark-ac-3-clip-clip-animate-3 1s linear .5s forwards;
+}
+
+@keyframes wordmark-ac-3-clip-clip-animate-3 {
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Content logo animation */
+:root {
+  --length: 0;
+}
+
+.transform-animation {
+  position: absolute;
+  right: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.possibility-animation {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.innovation-animation {
+  position: absolute;
+  right: 35px;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.vision-animation {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.potential-animation {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+}
+
+.coaching-animation {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+}
+
+.analytic-animation {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}

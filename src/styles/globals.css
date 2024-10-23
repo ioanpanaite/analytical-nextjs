@@ -1,0 +1,61 @@
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-b');
+
+html,
+body {
+  min-height: 100%;
+  margin: auto;
+}
+
+#__next {
+  height: 100%;
+}
+:root {
+  font-family: 'Euclid Circular B', sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Euclid Circular B', sans-serif; }
+}
+
+code {
+  font-family: 'Euclid Circular B', sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+
+a {
+  border-radius: unset !important;
+}
+
+.MuiInputBase-multiline.MuiInputBase-sizeSmall,
+.MuiInputBase-root.Mui-focused {
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+.MuiInputBase-input {
+  padding: 10px !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.Mui-checked {
+  color: #472CBB !important;
+}
+
+.MuiTypography-div, .MuiTypography-body1, p {
+  line-height: 24px !important;
+  font-family: Inter !important;
+}
+
+#blog_content p {
+  margin: 0 !important;
+}
